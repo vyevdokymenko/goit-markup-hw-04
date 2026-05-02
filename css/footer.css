@@ -1,0 +1,16 @@
+.footer {
+    background-color: #2E2F42;
+    color: #F4F4FD;
+    padding: 100px 0;
+}
+
+.footer .logo {
+    color: #F4F4FD;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 264px;
+}

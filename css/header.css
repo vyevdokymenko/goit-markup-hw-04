@@ -1,0 +1,52 @@
+.header {
+    border-bottom: 1px solid #E7E9FC;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+}
+
+.header .container .nav ul,
+.header .container .address ul {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.header .logo {
+    color: #2E2F42;
+    margin-right: 76px;
+}
+
+.header .nav {
+    margin-right: auto;
+}
+
+.header ul li a {
+    padding: 24px 0;
+    display: block;
+}
+
+.header ul li a {
+    font-weight: 500;
+}
+
+.address ul li a {
+    font-weight: 400;
+    font-style: normal;
+    color: #434455;
+    letter-spacing: 0.02em;
+}
+
+.nav ul li a:hover,
+.address ul li a:hover,
+.nav ul li a:focus,
+.address ul li a:focus {
+    color: #404BBF;
+}
+
+.nav ul li a:active {
+    color: #404BBF;
+    text-decoration: underline;
+}
