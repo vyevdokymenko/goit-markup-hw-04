@@ -52,10 +52,12 @@
     color: #404BBF;
 }
 
+.nav ul li:nth-child(1) a,
 .nav ul li a:active {
     color: #404BBF;
 }
 
+.nav ul li:nth-child(1) a::after,
 .nav ul li a:active::after {
     content: "";
     height: 4px;
@@ -63,5 +65,6 @@
     position: absolute;
     bottom: 0;
     left: 0;
+    border-radius: 2px;
     background-color: #404BBF;
 }

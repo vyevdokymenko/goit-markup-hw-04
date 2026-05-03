@@ -8,7 +8,7 @@
     color: #F4F4FD;
 }
 
-.footer .content {
+.footer .container {
     display: flex;
 }
 
@@ -41,4 +41,5 @@
 
 .socials-label {
     font-weight: 500;
+    color: #FFF;
 }
