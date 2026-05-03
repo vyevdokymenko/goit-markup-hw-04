@@ -83,3 +83,7 @@ button, button:focus, button:hover, button:active {
     clip-path: inset(100%);
     margin: -1px;
 }
+
+img {
+    display: block;
+}
