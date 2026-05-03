@@ -10,7 +10,6 @@
 
 .footer .content {
     display: flex;
-    gap: 120px;
 }
 
 .left {
@@ -18,6 +17,7 @@
     flex-direction: column;
     gap: 16px;
     max-width: 264px;
+    margin-right: 120px;
 }
 
 .socials {
@@ -37,4 +37,8 @@
 .socials .social-links li a:hover,
 .socials .social-links li a:focus {
     background-color: #31D0AA;
+}
+
+.socials-label {
+    font-weight: 500;
 }
